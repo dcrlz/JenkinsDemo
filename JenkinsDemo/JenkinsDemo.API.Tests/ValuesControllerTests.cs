@@ -30,7 +30,7 @@ namespace JenkinsDemo.API.Tests
 
             var result = controller.Get(1);
 
-            Assert.AreEqual("value", result);
+            Assert.AreEqual("value3", result);
         }
     }
 }
